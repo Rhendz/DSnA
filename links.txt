@@ -1,0 +1,3 @@
+https://en.wikipedia.org/wiki/Include_guard - Prevents double inclusion
+https://google.github.io/styleguide/cppguide.html#Forward_Declarations - Avoid
+doing this
