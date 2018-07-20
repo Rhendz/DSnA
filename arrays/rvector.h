@@ -1,7 +1,7 @@
 #ifndef DSNA_ARRAYS_RVECTOR_H
 #define DSNA_ARRAYS_RVECTOR_H
 
-namespace rhendz {
+namespace rz {
 
 static const int kMinCapacity = 16;
 static const int kGrowthFactor = 2;
@@ -49,8 +49,10 @@ class RVector {
   // (1) If capacity is reached, the new capacity is doubled.
   // (2) If size is a 1/4 the capacity, the new capacity is halved.
   void Resize(int size);
+  // Checks to see if index is within bounds
+  bool IsInBounds(int index) const;
 };
 
-}  // namespace rhendz
+}  // namespace rz
 
 #endif  // DSNA_ARRAYS_RVECTOR_H
