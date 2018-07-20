@@ -1,3 +1,10 @@
 https://en.wikipedia.org/wiki/Include_guard - Prevents double inclusion
 https://google.github.io/styleguide/cppguide.html#Forward_Declarations - Avoid
-doing this
+forward declarations
+https://www.youtube.com/watch?v=TvMS45AQeC4 - namespaces
+https://www.geeksforgeeks.org/const-member-functions-c/ - const member fncs.
+https://google.github.io/styleguide/cppguide.html#Use_of_const - const usage
+https://en.cppreference.com/w/cpp/language/storage_duration#Storage_duration -
+storage duration
+https://google.github.io/styleguide/cppguide.html#Variable_Names - curly brace
+initialization can prevent narrowing conversion.
